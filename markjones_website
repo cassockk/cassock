@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Mark Jones Logronio</title>
+    <style>
+        body {
+            background-color: #1e1b2e;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(44, 37, 64, 0.8);
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #c5a3ff;
+        }
+        img {
+            width: 200px;
+            border-radius: 15px;
+            margin-top: 20px;
+            border: 2px solid #a98cff;
+        }
+        nav table {
+            margin: 20px auto;
+            background-color: rgba(51, 45, 77, 0.8);
+            color: #ffffff;
+            border-collapse: collapse;
+        }
+        nav th, nav td {
+            border: 1px solid #555;
+            padding: 10px;
+        }
+        a {
+            color: #a98cff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            background-color: rgba(30, 27, 46, 0.85);
+            border-radius: 15px;
+        }
+        footer {
+            padding: 20px;
+            color: #888;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Background Music -->
+<audio autoplay loop>
+    <source src="hold_me_down.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+    <h1>Welcome to My Page</h1>
+    <img src="mark.jpg" alt="Mark's Photo">
+</header>
+
+<nav>
+    <table>
+        <tr>
+            <th><a href="#about">About Me</a></th>
+            <th><a href="#hobbies">Hobbies</a></th>
+            <th><a href="#contact">Contact</a></th>
+        </tr>
+    </table>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm <strong>Mark Jones Logronio</strong>. I'm 20 years old and passionate about tech, anime, music, and just living life chill and cool.</p>
+</section>
+
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>I like listening to music, watching anime, sleeping, eating, and playing online games. These help me relax and recharge.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to email me at: <a href="mailto:mlogronio@paterostechnologicalcollege.edu.ph">mlogronio@paterostechnologicalcollege.edu.ph</a></p>
+</section>
+
+<footer>
+    &copy; 2025 Mark Jones Logronio
+</footer>
+
+</body>
+</html>
